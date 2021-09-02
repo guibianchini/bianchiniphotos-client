@@ -1,0 +1,14 @@
+.menu {
+    background-color: #039490 !important;
+    padding: 2% 0 1% 0;
+    /* background-color: #FBC84F !important; */
+}
+
+.menu-nav-title {
+    color: white !important;
+    font-size: 1.6em;
+}
+
+.menu-nav-bar {
+    color: white !important;
+}
