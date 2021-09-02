@@ -9,10 +9,14 @@ function App() {
     <>
       <Menu />
       <Switch>
-        {/* <Route path='/panda' component={Panda}/>  
-             <Route path='/gorilla' component={Gorilla}/>               
-             <Route path='/rhino' component={Rhino}/> 
-             <Route path='/seaTurtle' component={SeaTurtle}/>   */}
+        <Route
+          path="/instagram"
+          component={() => {
+            global.window &&
+              (global.window.location.href = "https://instagram.com/bianchiniphotos");
+            return null;
+          }}
+        />
         <Route path="/" component={Home} />
       </Switch>
       <Footer />
