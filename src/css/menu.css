@@ -27,6 +27,7 @@
     }
     .menu-nav-title-inf {
         display: block !important;
+        font-size: 1em;
     }
 }
 
@@ -44,4 +45,13 @@
     color: white !important;
     background-color: #E6B236 !important;
     
+}
+
+@media only screen and (max-width: 386px){
+    .menu-nav-bar-btn {
+        padding: 5% 2%!important;
+        text-align: center;
+        font-size: 1em;
+        
+    }
 }

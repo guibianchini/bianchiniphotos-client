@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <div>
       {
-        <Navbar className="menu" bg="light" expand="lg">
+        <Navbar collapseOnSelect className="menu" bg="light" expand="lg">
           <Container className="menu-nav">
             <Navbar.Brand className="menu-nav-title-sup" href="#home">
               BIANCHINIPHOTOS
@@ -14,7 +14,7 @@ const Menu = () => {
             <Navbar.Brand className="menu-nav-title-inf" href="#home">
               BIANCHINI
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle className="menu-toggle" aria-controls="navbarScroll" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link className="menu-nav-bar-btn" href="#link">

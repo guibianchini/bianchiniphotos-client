@@ -1,18 +1,27 @@
 .footer {
-    text-align: center;
-    background-color: #FBC84F;
-    align-items: center;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    padding: 1% 0;
+  text-align: center;
+  background-color: #fbc84f;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  padding: 1% 0;
 }
 
 .footer-link {
-    color: black !important;
-    text-decoration: none !important;
+  color: black !important;
+  text-decoration: none !important;
 }
 
 .footer-link:hover {
-    color: white !important;
+  color: white !important;
+}
+
+@media only screen and (max-width: 386px) {
+  .footer {
+      padding: 0;
+  }
+
+  .footer-link {
+      font-size: 0.8em;
+  }
 }
