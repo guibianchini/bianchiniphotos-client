@@ -53,3 +53,9 @@
         
     }
 }
+
+.menu-toggle {
+    size: 0.2em !important;
+    border: none;    
+    background-color: #FBC84F !important;
+}
