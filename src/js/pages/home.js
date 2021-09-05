@@ -1,8 +1,10 @@
 import "../../css/home.css";
+import { Menu, Footer } from "../components";
 
 const Home = () => {
   return (
     <>
+      <Menu />
       <div className="content">
         <p>Oi, me chamo Gui!</p>
         <p className="content-sub">
@@ -17,6 +19,7 @@ const Home = () => {
         </p>
         <br />
       </div>
+      <Footer />
     </>
   );
 };

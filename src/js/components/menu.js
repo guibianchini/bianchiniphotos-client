@@ -8,15 +8,15 @@ const Menu = () => {
       {
         <Navbar collapseOnSelect className="menu" bg="light" expand="lg">
           <Container className="menu-nav">
-            <Navbar.Brand className="menu-nav-title-sup" href="#home">
+            <Navbar.Brand className="menu-nav-title-sup" href="/">
               BIANCHINIPHOTOS
             </Navbar.Brand>
             <Navbar.Brand className="menu-nav-title-inf" href="#home">
               BIANCHINI
             </Navbar.Brand>
             <Navbar.Toggle className="menu-toggle" aria-controls="navbarScroll" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
+            <Navbar.Collapse id="basic-navbar-nav" class="menu-nav-collapse">
+              <Nav className="menu-nav-bar-btns">
                 <Nav.Link className="menu-nav-bar-btn" href="#link">
                   Portfólio
                 </Nav.Link>
