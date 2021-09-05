@@ -12,26 +12,27 @@
 }
 
 .content p {
+    
     text-align: center;
-    font-size: 3em;
+    font-size: 3rem;
     color: #039490;
     padding: 2% 0 0 0;
     font-weight: bold;
 }
 
 .content-sub {
-    font-size: 1.8em !important;
+    font-size: 1.8rem !important;
     margin: 0 20%;
 }
 
-@media only screen and (max-width: 386px){
+@media only screen and (max-width: 480px){
     .content p{
         padding: 5% 0 0 0;
-        font-size: 1.2em;
+        font-size: 1.8rem;
     }
 
     .content-sub {
         margin: 0 15%;
-        font-size: 0.9em !important;
+        font-size: 1.2rem !important;
     }
 }
