@@ -9,6 +9,7 @@
 
 .menu-nav {
     display: flex !important;
+    align-items: center !important;
     width: 100%;
 }
 
@@ -26,7 +27,7 @@
     }
     .menu-nav-title-inf {
         display: block !important;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
 
@@ -35,7 +36,7 @@
     background-color: #FBC84F !important;
     padding:  10% 30% !important;
     margin: 4% 4%;
-    border-radius: 15rem ;
+    border-radius: 15em ;
 }
 
 .menu-nav-bar-btn:hover {

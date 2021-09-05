@@ -15,7 +15,7 @@ const Menu = () => {
               BIANCHINI
             </Navbar.Brand>
             <Navbar.Toggle className="menu-toggle" aria-controls="navbarScroll" />
-            <Navbar.Collapse id="basic-navbar-nav" class="menu-nav-collapse">
+            <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="menu-nav-bar-btns">
                 <Nav.Link className="menu-nav-bar-btn" href="#link">
                   Portfólio
