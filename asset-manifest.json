@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bianchiniphotos-client/static/css/main.efb7bc0c.chunk.css",
+    "main.css": "/bianchiniphotos-client/static/css/main.ba4a0929.chunk.css",
     "main.js": "/bianchiniphotos-client/static/js/main.9aab42d9.chunk.js",
     "main.js.map": "/bianchiniphotos-client/static/js/main.9aab42d9.chunk.js.map",
     "runtime-main.js": "/bianchiniphotos-client/static/js/runtime-main.7c16ae97.js",
@@ -10,14 +10,14 @@
     "static/js/2.b4588905.chunk.js.map": "/bianchiniphotos-client/static/js/2.b4588905.chunk.js.map",
     "index.html": "/bianchiniphotos-client/index.html",
     "static/css/2.818011ed.chunk.css.map": "/bianchiniphotos-client/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.efb7bc0c.chunk.css.map": "/bianchiniphotos-client/static/css/main.efb7bc0c.chunk.css.map",
+    "static/css/main.ba4a0929.chunk.css.map": "/bianchiniphotos-client/static/css/main.ba4a0929.chunk.css.map",
     "static/js/2.b4588905.chunk.js.LICENSE.txt": "/bianchiniphotos-client/static/js/2.b4588905.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7c16ae97.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.b4588905.chunk.js",
-    "static/css/main.efb7bc0c.chunk.css",
+    "static/css/main.ba4a0929.chunk.css",
     "static/js/main.9aab42d9.chunk.js"
   ]
 }
